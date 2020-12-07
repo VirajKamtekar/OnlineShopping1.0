@@ -1,0 +1,19 @@
+ngb-carousel{
+    height: 70vh;
+   
+}
+ngb-carousel img{
+    height: 70vh;
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    ngb-carousel{
+        height: 40vh;
+       
+    }
+    ngb-carousel img{
+        height: 40vh;
+        width: 100%;
+    }
+}
